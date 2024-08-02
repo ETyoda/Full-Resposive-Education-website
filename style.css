@@ -261,6 +261,75 @@ p{
 .testimonials{
     width: 80%;
     margin: auto;
-    padding-top:100px;
+    padding-top:80px;
     text-align: center;
+}
+.testimonial-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    display: flex;
+    cursor:pointer;
+
+}
+.testimonial-col img{
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-left:5px ;
+}
+.testimonial-col p{
+    padding:0;
+}
+.testimonial-col h3{
+    text-align: left;
+    margin-top: 15px;
+}
+.testimonial-col .fa{
+    color: #f44336;
+}
+@media(max-width:700px){
+    .testimonial-col img{
+        
+        margin-right: 15px;
+        margin-left:0px ;
+    }
+}
+
+/* -----   CONTACT US--------- */
+.cta{
+    margin:100px auto;
+    width:80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./eduford_img/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius:10px;
+    text-align: center;
+    padding:100px 0;
+
+}
+.cta h1{
+    color: #fff;
+    margin-bottom:40px;
+    padding:0;
+}
+@media(max-width:700px){
+    .cat h1{
+        font-size: 24px;
+    }
+}
+
+/* -------footer----- */
+.footer{
+    width:100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight:600;
 }
